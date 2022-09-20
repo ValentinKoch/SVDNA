@@ -16,26 +16,14 @@ The code used to train our model will be released soon.
 Please cite our work if you find it uesful to your research.
 ```
 @InProceedings{10.1007/978-3-031-16434-7_67,
-author="Koch, Valentin
-and Holmberg, Olle
-and Spitzer, Hannah
-and Schiefelbein, Johannes
-and Asani, Ben
-and Hafner, Michael
-and Theis, Fabian J.",
-editor="Wang, Linwei
-and Dou, Qi
-and Fletcher, P. Thomas
-and Speidel, Stefanie
-and Li, Shuo",
+author="Koch, Valentin and Holmberg, Olle and Spitzer, Hannah and Schiefelbein, Johannes and Asani, Ben and Hafner, Michael and Theis, Fabian J.",
+editor="Wang, Linwei and Dou, Qi and Fletcher, P. Thomas and Speidel, Stefanie and Li, Shuo",
 title="Noise Transfer for Unsupervised Domain Adaptation of Retinal OCT Images",
 booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022",
 year="2022",
 publisher="Springer Nature Switzerland",
 address="Cham",
-pages="699--708",
-abstract="Optical coherence tomography (OCT) imaging from different camera devices causes challenging domain shifts and can cause a severe drop in accuracy for machine learning models. In this work, we introduce a minimal noise adaptation method based on a singular value decomposition (SVDNA) to overcome the domain gap between target domains from three different device manufacturers in retinal OCT imaging. Our method utilizes the difference in noise structure to successfully bridge the domain gap between different OCT devices and transfer the style from unlabeled target domain images to source images for which manual annotations are available. We demonstrate how this method, despite its simplicity, compares or even outperforms state-of-the-art unsupervised domain adaptation methods for semantic segmentation on a public OCT dataset. SVDNA can be integrated with just a few lines of code into the augmentation pipeline of any network which is in contrast to many state-of-the-art domain adaptation methods which often need to change the underlying model architecture or train a separate style transfer model. The full code implementation for SVDNA will be made available at https://github.com/ValentinKoch/SVDNA.",
-isbn="978-3-031-16434-7"
+pages="699--708"
 }
 
 ```
