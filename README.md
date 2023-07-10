@@ -7,7 +7,7 @@ In our work we propose a simple Singular Value Decomposition based Noise Adaptat
 *Figure 1. Training scheme* 
 
 ## Demo
-We provide a sample [notebook](https://colab.research.google.com/drive/1SO57y3u4JxGkltChlX6kVAnGLLYeRev0#scrollTo=Y8d3_BPrBjW0) where you can try out the SVDNA style transfer yourself, datasets to test style transfer can be requested at the [page of the RETOUCH challenge](https://retouch.grand-challenge.org/)[1], one public dataset is available to download [here](https://www.kaggle.com/datasets/paultimothymooney/farsiu-2014). 
+We provide a sample [notebook](https://colab.research.google.com/drive/1eF2gA1OUmxLlBsp-hdRfqs5Y_4n_xyI4?usp=sharing) where you can try out the SVDNA style transfer yourself, datasets to test style transfer can be requested at the [page of the RETOUCH challenge](https://retouch.grand-challenge.org/)[1], one public dataset is available to download [here](https://www.kaggle.com/datasets/paultimothymooney/farsiu-2014). 
 ![image](svdna_style_transfer.png)
 *Figure 2. Sample restyling to images from three different domains*. 
 The code used to train our model will be released soon.
